@@ -25,6 +25,15 @@
 
 # Visual Studio cache directory
 .vs/
+.vscode/
+.idea/
+
+# macOS 관련 파일
+.DS_Store
+
+# Windows 관련 파일
+Thumbs.db
+Desktop.ini
 
 # Gradle cache directory
 .gradle/
@@ -61,6 +70,13 @@ sysinfo.txt
 *.unitypackage
 *.unitypackage.meta
 *.app
+
+# Log 파일
+*.log
+
+# Git 관련 파일
+*.git/
+# *.gitignore
 
 # Crashlytics generated file
 crashlytics-build.properties
